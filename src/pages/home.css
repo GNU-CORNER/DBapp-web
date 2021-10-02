@@ -1,0 +1,42 @@
+@keyframes bgColor {
+  from {
+    background-color: rgb(15, 76, 130);
+  }
+  to {
+    background-color: #fff;
+  }
+}
+
+.HomeFrame {
+  position: relative;
+  width: 420px;
+  /* height: 100vh; */
+  background-color: #fff;
+  text-align: center;
+  animation: bgColor 0.5s;
+  /* border: 1px solid gray; */
+}
+
+.Logo_Home {
+  margin-top: 10vh;
+  width: 280px;
+}
+
+.SearchBar {
+  width: 350px;
+  height: 40px;
+  border-radius: 40px;
+  border-width: 0px;
+  box-shadow: 2px 3px 4px gray;
+}
+
+.SearchIcon {
+  width: 38px;
+  position: absolute;
+  right: 40px;
+}
+
+.Category {
+  padding: 25px;
+  text-align: initial;
+}
